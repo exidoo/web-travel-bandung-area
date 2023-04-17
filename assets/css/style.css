@@ -264,7 +264,7 @@ body.dark-theme {
 }
 
 /*========== Button Dark/Light ==========*/
-.nav__dark {
+/* .nav__dark {
   display: flex;
   align-items: center;
   column-gap: 2rem;
@@ -285,7 +285,7 @@ body.dark-theme {
 
 .change-theme-name {
   font-size: var(--small-font-size);
-}
+} */
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {

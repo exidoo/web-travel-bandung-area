@@ -253,7 +253,7 @@ input {
 }
 
 /*========== Variables Dark theme ==========*/
-body.dark-theme {
+/* body.dark-theme {
   --first-color-second: hsl(var(--hue-color), 54%, 12%);
   --title-color: hsl(var(--hue-color), 24%, 95%);
   --text-color: hsl(var(--hue-color), 8%, 75%);
@@ -262,7 +262,7 @@ body.dark-theme {
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
-
+ */
 /*========== Button Dark/Light ==========*/
 /* .nav__dark {
   display: flex;
@@ -1008,9 +1008,9 @@ figure.testimonal-name .profile {
   .nav__link:hover {
     color: var(--white-color);
   }
-  .nav__dark {
+/*   .nav__dark {
     position: initial;
-  }
+  } */
   .nav__menu {
     display: flex;
     column-gap: 1rem;

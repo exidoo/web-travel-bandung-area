@@ -81,10 +81,6 @@ function finalVideo() {
 // ended, when the video ends
 videoFile.addEventListener('ended', finalVideo);
 
-/*==================== TESTIMONIAL ====================*/
-$('.hover').mouseleave(function () {
-  $(this).removeClass('hover');
-});
 /*==================== SHOW SCROLL UP ====================*/
 function scrollUp() {
   const scrollUp = document.getElementById('scroll-up');
@@ -124,8 +120,7 @@ const sr = ScrollReveal({
 sr.reveal(
   `.home__data, .home__social-link, .home__info, .discover,
          .discover__container,
-         .experience__data, .experience__overlay,
-         .place__card,
+         .place__card, .testimonial,
          .sponsor__content,
          .footer__data, .footer__rights`,
   {

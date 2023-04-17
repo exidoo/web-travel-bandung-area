@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Go2Bandoeng</title>
+  </head>
+  <body>
+    <!--=============== NAVBAR ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Go<span class="color-logo">2</span>Bandoeng</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Paket Travel</a>
+            </li>
+            <li class="nav__item">
+              <a href="#service" class="nav__link">Service</a>
+            </li>
+            <li class="nav__item">
+              <a href="#testimonial" class="nav__link">Testimonial</a>
+            </li>
+            <li>
+              <button class="button-bawah">Masuk</button>
+            </li>
+          </ul>
+
+          <div class="nav__dark">
+            <!-- Theme change button -->
+            <span class="change-theme-name">Dark mode</span>
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+          </div>
+
+          <i class="ri-close-line nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <img src="assets/img/bg.webp" class="home__img" />
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__data-subtitle">Find your Destination <br />With Bandoeng</h1>
+            <p class="home__data-tittle">Explore & Relax with the beauty of <span class="color-logo">Kota Kembang</span></p>
+            <a href="#" class="button">Get Started</a>
+          </div>
+        </div>
+
+        <!-- Social Media -->
+        <aside>
+          <div class="social-media">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                  <i class="ri-facebook-box-fill"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                  <i class="ri-instagram-fill"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                  <i class="ri-twitter-fill"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">More Information <br />about Bandung tourism</h2>
+            <p class="about__description">You can find various beautiful places in the city of Bandung and its surroundings, including Gedung Sate, Jalan Braga, Bandung City Square, etc.</p>
+          </div>
+
+          <div class="about__img">
+            <div class="about__img-overlay">
+              <img src="assets/img/braga.png" alt="" class="about__img-one" />
+            </div>
+
+            <div class="about__img-overlay">
+              <img src="assets/img/masjid agung.png" alt="" class="about__img-two" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== DISCOVER ====================-->
+      <section class="discover section" id="service">
+        <h2 class="section__title-discovery">
+          Discover the most <br />
+          attractive places
+        </h2>
+
+        <div class="discover__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== DISCOVER 1 ====================-->
+            <div class="discover__card swiper-slide">
+              <img src="assets/img/ciwidey.png" alt="" class="discover__img" />
+              <div class="discover__data">
+                <h2 class="discover__title">Ciwidey</h2>
+                <span class="discover__description">24 tours available</span>
+              </div>
+            </div>
+
+            <!--==================== DISCOVER 2 ====================-->
+            <div class="discover__card swiper-slide">
+              <img src="assets/img/pangalengan1.png" alt="" class="discover__img" />
+              <div class="discover__data">
+                <h2 class="discover__title">Pangalengan</h2>
+                <span class="discover__description">24 tours available</span>
+              </div>
+            </div>
+
+            <!--==================== DISCOVER 3 ====================-->
+            <div class="discover__card swiper-slide">
+              <img src="assets/img/gedung sate.png" alt="" class="discover__img" />
+              <div class="discover__data">
+                <h2 class="discover__title">Bandung</h2>
+                <span class="discover__description">24 tours available</span>
+              </div>
+            </div>
+
+            <!--==================== DISCOVER 4 ====================-->
+            <div class="discover__card swiper-slide">
+              <img src="assets/img/lembang 1.png" alt="" class="discover__img" />
+              <div class="discover__data">
+                <h2 class="discover__title">Lembang</h2>
+                <span class="discover__description">24 tours available</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== VIDEO ====================-->
+      <section class="video section">
+        <h2 class="section__title">Video Tour</h2>
+
+        <div class="video__container container">
+          <p class="video__description">Find out more with our video of the most beautiful and pleasant places for you and your family.</p>
+
+          <div class="video__content">
+            <video id="video-file">
+              <source src="assets/video/bahan.mp4" type="video/mp4" />
+            </video>
+
+            <button class="button button--flex video__button" id="video-button">
+              <i class="ri-play-line video__button-icon" id="video-icon"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PLACES ====================-->
+      <section class="place section" id="place">
+        <h2 class="section__title">Choose Your Place</h2>
+
+        <div class="place__container container grid">
+          <!--==================== PLACES CARD 1 ====================-->
+          <div class="place__card">
+            <img src="assets/img/castle.png" alt="" class="place__img" />
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">4,4</span>
+              </span>
+              <div class="place__data">
+                <h3 class="place__title">Dago Bakery Punclut</h3>
+                <span class="place__subtitle">Kawasan Punclut</span>
+                <span class="place__price">Rp. 50000</span>
+              </div>
+            </div>
+            <button class="button button--flex place__button">
+              <a href="https://goo.gl/maps/jpVtBgnYgCSoDfbr6"><i class="ri-arrow-right-line"></i></a>
+            </button>
+          </div>
+
+          <!--==================== PLACES CARD 2 ====================-->
+          <div class="place__card">
+            <img src="assets/img/kawah putih.jpg" alt="" class="place__img" />
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">4,5</span>
+              </span>
+              <div class="place__data">
+                <h3 class="place__title">Kawah Putih</h3>
+                <span class="place__subtitle">Rancabali</span>
+                <span class="place__price">Rp. 30000</span>
+              </div>
+            </div>
+            <button class="button button--flex place__button">
+              <a href="https://goo.gl/maps/iWwXLk9poEn1Lcdk6"><i class="ri-arrow-right-line"></i></a>
+            </button>
+          </div>
+
+          <!--==================== PLACES CARD 3 ====================-->
+          <div class="place__card">
+            <img src="assets/img/pangalengan.png" alt="" class="place__img" />
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">4,5</span>
+              </span>
+              <div class="place__data">
+                <h3 class="place__title">Rumah Putih Cukul</h3>
+                <span class="place__subtitle">Pangalengan</span>
+                <span class="place__price">Rp. 25000</span>
+              </div>
+            </div>
+            <button class="button button--flex place__button">
+              <a href="https://goo.gl/maps/RwqAA4uAoJBZsnpeA"><i class="ri-arrow-right-line"></i></a>
+            </button>
+          </div>
+
+          <!--==================== PLACES CARD 4 ====================-->
+          <div class="place__card">
+            <img src="assets/img/ranca upas.png" alt="" class="place__img" />
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">4,5</span>
+              </span>
+              <div class="place__data">
+                <h3 class="place__title">Ranca Upas</h3>
+                <span class="place__subtitle">Ciwidey</span>
+                <span class="place__price">Rp. 55000</span>
+              </div>
+            </div>
+            <button class="button button--flex place__button">
+              <a href="https://goo.gl/maps/3WKTtgEe65cB16s39"><i class="ri-arrow-right-line"></i></a>
+            </button>
+          </div>
+
+          <!--==================== PLACES CARD 5 ====================-->
+          <div class="place__card">
+            <img src="assets/img/lembang.png" alt="" class="place__img" />
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">4,5</span>
+              </span>
+              <div class="place__data">
+                <h3 class="place__title">The Great Asia Africa</h3>
+                <span class="place__subtitle">Lembang</span>
+                <span class="place__price">Rp. 50000</span>
+              </div>
+            </div>
+            <button class="button button--flex place__button">
+              <a href="https://goo.gl/maps/V8BBmuqXEqiREgGk7"><i class="ri-arrow-right-line"></i></a>
+            </button>
+          </div>
+
+          <!--==================== PLACES CARD 6 ====================-->
+          <div class="place__card">
+            <img src="assets/img/cikole.png" alt="" class="place__img" />
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">4,6</span>
+              </span>
+              <div class="place__data">
+                <h3 class="place__title">Orchid Forest Cikole</h3>
+                <span class="place__subtitle">Lembang</span>
+                <span class="place__price">Rp. 40000</span>
+              </div>
+            </div>
+            <button class="button button--flex place__button">
+              <a href="https://goo.gl/maps/jpVtBgnYgCSoDfbr6"><i class="ri-arrow-right-line"></i></a>
+            </button>
+          </div>
+
+          <!--==================== PLACES CARD 7 ====================-->
+          <div class="place__card">
+            <img src="assets/img/cukul.png" alt="" class="place__img" />
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">4,6</span>
+              </span>
+              <div class="place__data">
+                <h3 class="place__title">Sunrise Point Cukul</h3>
+                <span class="place__subtitle">Pangalengan</span>
+                <span class="place__price">Free</span>
+              </div>
+            </div>
+            <button class="button button--flex place__button">
+              <a href="https://goo.gl/maps/uDXGWA9gNFe6F2ZU9"><i class="ri-arrow-right-line"></i></a>
+            </button>
+          </div>
+
+          <!--==================== PLACES CARD 8 ====================-->
+          <div class="place__card">
+            <img src="assets/img/taman langit.png" alt="" class="place__img" />
+            <div class="place__content">
+              <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">4,7</span>
+              </span>
+              <div class="place__data">
+                <h3 class="place__title">Taman Langit</h3>
+                <span class="place__subtitle">Pangalengan</span>
+                <span class="place__price">Rp. 20000</span>
+              </div>
+            </div>
+            <button class="button button--flex place__button">
+              <a href="https://goo.gl/maps/zDLt9rJXijxYckBD6"><i class="ri-arrow-right-line"></i></a>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial" id="testimonial">
+        <h2 class="section__title-testi">Testimonial</h2>
+        <div class="container-testi">
+          <figure class="testimonal-name">
+            <img src="assets/img/me.png" alt="profile-sample3" class="profile" />
+            <figcaption>
+              <h2>Romi RA</h2>
+              <h4>Front End Developer</h4>
+              <blockquote>I think Bandung is the best place to vacation and have fun and relax your soul.</blockquote>
+            </figcaption>
+          </figure>
+          <figure class="testimonal-name hover">
+            <img src="assets/img/rijal.jpg" alt="profile-sample5" class="profile" />
+            <figcaption>
+              <h2>Muhammad Rijal</h2>
+              <h4>Back End Developer</h4>
+              <blockquote>Bandung area is the best place to relax and there are so many places to hang out.</blockquote>
+            </figcaption>
+          </figure>
+          <figure class="testimonal-name">
+            <img src="assets/img/Ellipse 3.png" alt="profile-sample6" class="profile" />
+            <figcaption>
+              <h2>Sarah RA</h2>
+              <h4>UI/UX Design</h4>
+              <blockquote>The Bandung area is a place that has vibes so good for mental health, many places are still natural and the air is so comfortable.</blockquote>
+            </figcaption>
+          </figure>
+          <figure class="testimonal-name">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample6.jpg" alt="profile-sample6" class="profile" />
+            <figcaption>
+              <h2>Rumi Arisha</h2>
+              <h4>Public Relations</h4>
+              <blockquote>I really love the Bandung area, why? because there are many interesting tourist attractions and the food is cheap in my wallet hehe.</blockquote>
+            </figcaption>
+          </figure>
+        </div>
+        <!-- partial -->
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <div class="footer__data">
+            <h3 class="footer__title">Travel</h3>
+            <p class="footer__description">
+              Travel you choose the <br />
+              destination, we offer you the <br />
+              experience.
+            </p>
+            <div>
+              <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                <i class="ri-facebook-box-fill"></i>
+              </a>
+              <a href="https://twitter.com/" target="_blank" class="footer__social">
+                <i class="ri-twitter-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                <i class="ri-instagram-fill"></i>
+              </a>
+              <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                <i class="ri-youtube-fill"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">About</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">About Us</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Features</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">New & Blog</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Company</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">Team</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Plan y Pricing</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Become a member</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Support</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">FAQs</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Support Center</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__rights">
+          <p class="footer__copy">&#169; 2023 Romi RA. All rigths reserved.</p>
+          <div class="footer__terms">
+            <a href="#" class="footer__terms-link">Terms & Agreements</a>
+            <a href="#" class="footer__terms-link">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <!--=============== JQUERY ===============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  </body>
+</html>
